@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCreateSAF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="创建文件" />
+
+    <Button
+        android:id="@+id/btnInsertImage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="创建图片" />
+
+    <Button
+        android:id="@+id/btnQueryImage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="查询删除图片" />
+
+    <Button
+        android:id="@+id/btnChangeImageName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="修改图片名字" />
+</LinearLayout>
